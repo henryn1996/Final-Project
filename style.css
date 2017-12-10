@@ -1,0 +1,627 @@
+#header{
+    top:0px;
+    background-color: white;
+    height:10vh;
+    width:100vw;
+    left:0px;
+    position:fixed;
+    z-index: 50;
+}
+#footer{
+    bottom:0px;
+    height:10vh;
+    width:100vw;
+    background-color:white;
+    position: fixed;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+#control{
+    height:70%;
+    position:absolute;
+    width:115px;
+    top:-500px;
+    left:0px;
+    transition:1s;
+    z-index:0;
+}
+#logo{
+    top:0;
+    right:0px;
+    left:0px;
+    margin:auto;
+    height:90%;
+    width:auto;
+    position: absolute;
+    cursor:pointer;
+    transition: 3s;
+    
+}
+#openclose{
+    top:0px;
+    left:0px;
+    height:100%;
+    width:10%;
+    position: absolute;
+    cursor: pointer;
+    
+}
+#playersmenu{
+    right:500px;
+    position: absolute;
+    top:25px;
+    cursor:pointer;
+    text-align: center;
+    font-family: "G", Helvetica, Arial;
+}
+#infomenu{
+    right:350px;
+    position: absolute;
+    top:25px;
+    cursor:pointer;
+    font-family: "G", Helvetica, Arial;
+    text-align: center;
+}
+#background{
+    position: absolute;
+    height:100%;
+    width:100%;
+    display:block;
+    
+    
+}
+body{
+    overflow:hidden;
+}
+.buttons{
+    height:auto;
+    width: 100%;
+    cursor:pointer;
+    position:absolute;
+    display:block;
+}
+#shoes{
+    position: absolute;
+    height:100%;
+    width:auto;
+    right:1.5%;
+    top:0px;
+    cursor: pointer;
+}
+#jordanlogo{
+    top:0%;
+    left:0%;
+    position: absolute;
+    width:100%;
+    height:auto;
+}
+#kobelogo{
+    top:50%;
+    left:0%;
+    position: absolute;
+    width:100%;
+    height:auto;
+}
+#lebronlogo{
+    bottom:10%;
+    left:0%;
+    position: absolute;
+    width:100%;
+    height:auto;
+}
+#hiddenhoop{
+    top:10%;
+    right:10%;
+    height:auto;
+    width:20%;
+    position: absolute;
+    z-index:1;
+    opacity:0;
+    transition: 2s;
+}
+#hiddenhoopimage{
+    height:100%;
+    width:100%;
+}
+.page{
+    width:80%;
+    height:85%;
+    background-color: black;
+    top:10%;
+    position: absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    display:none;
+    border: 15px groove #e3e3e3;
+}
+#jordanpage{
+    
+}
+#lebronpage{
+    
+}
+#kobepage{
+    
+}
+#lebronjamesphoto{
+    left:4%;
+    top:20%;
+    height:80%;
+    position:absolute;
+    width:auto;
+    cursor:pointer;
+}
+#lebronjamesphoto:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(255, 153, 0, 0.8));
+
+}
+.titleofplayer{
+    position:absolute;
+    top:8%;
+    left:5%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-family: "G", Helvetica, Arial;
+    text-decoration: underline;
+}
+#kobephoto{
+    top:20%;
+    position: absolute;
+    width:auto;
+    height:80%;
+    left:5%;
+}
+#jordanphoto{
+    top:10%;
+    left:0%;
+    position:absolute;
+    height:90%;
+    width:auto;
+    transition:2s;
+}
+#textbox{
+    position: absolute;
+    background-color: white;
+    height:80%;
+    width:47%;
+    top:15%;
+    left:50%;
+    border-style: solid;
+    border-width:10px;
+    border-color: grey;
+    border-radius: 5%;
+    text-align: center;
+    color: black;
+    font-size:30px;
+    overflow:auto;
+}
+#lebronchat{
+    top:20%;
+    height:0;
+    width:0;
+    left:25%;
+    background-color: white;
+    position: absolute;
+    border-radius:10%;
+    border-style:solid;
+    border-width:5px;
+    border-color: grey;
+    font-family: "G", Helvetica, Arial;
+    transition: 1s;
+    opacity:0;
+    text-align: center;
+    word-wrap:break-word;
+}
+.bigfactbox{
+    top:-150%;
+    left:40%;
+    height:90%;
+    width:50%;
+    background-color: white;
+    position: absolute;
+    border-style: double;
+    border-width:inherit;
+    text-align: center;
+    font-family: "G", Helvetica, Arial;
+    transition:1s;
+    z-index:5;
+    
+}
+#kobefactsbox{
+    top:3%;
+    left:40%;
+    height:90%;
+    width:50%;
+    background-color: white;
+    position: absolute;
+    border-style: double;
+    border-width:inherit;
+}
+.b {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    float: left;
+    width: 48%;
+    height:48%;
+    cursor:pointer;
+    z-index:0;
+}
+.kobegifs{
+    height:100%;
+    width:100%;
+    z-index:0;
+}
+#kobefact1{
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    float: left;
+    width: 48%;
+    height:48%;
+    background-color: black;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    font-family: "G", Helvetica, Arial;
+}
+#kobegif1:hover,#kobegif2:hover,#kobegif3:hover,#kobegif4:hover{
+    opacity:0;
+}
+#kobefact2{
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    left:50%;
+    float: left;
+    width: 48%;
+    height:48%;
+    background-color: black;
+    z-index:0;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    font-family: "G", Helvetica, Arial;
+}
+#kobefact3{
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    top:50%;
+    float: left;
+    width: 48%;
+    height:48%;
+    background-color: black;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    font-family: "G", Helvetica, Arial;
+}
+#kobefact4{
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    top:50%;
+    left:50%;
+    float: left;
+    width: 48%;
+    height:48%;
+    background-color: black;
+    z-index:0;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    font-family: "G", Helvetica, Arial;
+}
+#reset{
+    position:absolute;
+    top:4%;
+    right:5.105%;
+    display:none;
+    z-index:2;
+}
+#spacejam{
+    position: absolute;
+    top:5%;
+    right:-1%;
+    height:50%;
+    width:auto;
+    cursor:pointer;
+    transition: 1s;
+}
+#kobefactsbox2{
+    top:3%;
+    left:40%;
+    height:1px;
+    width:1px;
+    background-color: white;
+    position: absolute;
+    border-style: double;
+    border-width:inherit;
+    opacity:0;
+    
+}
+#italiankobe{
+    height:50%;
+    width:auto;
+    top:30%;
+    position: absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+#inputdiv{
+    height:50%;
+    width:30%;
+    color: white;
+    font-weight: bold;
+}
+#shoeinputdiv{
+    width:80%;
+    height:85%;
+    background-color: white;
+    top:10%;
+    position: absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    display:none;
+    border: 15px groove #e3e3e3;
+    border-radius: 10px;
+    background-image: url(basketballcourt.jpg);
+    background-size: cover;
+}
+input[type=text]{
+    display:inline-block;
+    width:100%;
+    padding:-2px;
+}
+#shoepopup{
+    height:99%;
+    width:65%;
+    right:0;
+    top:0;
+    position: absolute;
+    overflow: auto;
+}
+.tunesquad{
+    width:1px;
+    height:1px;
+    position: absolute;
+    right:13%;
+    top:14%;
+    z-index:1;
+    transition: 1s;
+}
+#bugsbunny{
+    transition-delay: 1s;
+    cursor:pointer;
+}
+#lola{
+    transition-delay: 1.5s;
+    cursor: pointer;
+}
+#tasmanian{
+    transition-delay: 2s;
+    cursor:pointer;
+}
+#tunesquad{
+    width:1px;
+    height:1px;
+    top:0;
+    right:5%;
+    position: absolute;
+    z-index: 0;
+    transition: 1.5s;
+    transition-delay: 1s;
+}
+#tunesquadfact{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    height:20%;
+    width:20%;
+    border-style: solid;
+    border-width:5px;
+    bottom:-50%;
+    right:77%;
+    position: absolute;
+    border-radius: 10px;
+    transition: 2s;
+    transition-delay: 1s;
+    font-family: "G", Helvetica, Arial;
+}
+#tasmanianfact{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(0, 51, 153);
+    height:20%;
+    width:20%;
+    border-style: solid;
+    border-width:5px;
+    bottom:150%;
+    right:20%;
+    position: absolute;
+    border-radius: 10px;
+    transition: 2s;
+    transition-delay: 2.5s;
+    font-family: "G", Helvetica, Arial;
+    
+}
+#basketballhoop{
+    height:1px;
+    width:1px;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.shoeimages{
+    height:100%;
+    width:100%;
+    position: relative;
+    display:inline-block;
+}
+.shoediv{
+    height:20%;
+    width:20%;
+    position: relative;
+    display: inline-block;
+}
+#circle{
+   width: 0px;
+    height:0px;
+    background: orange;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top:10%;
+    left:20%;
+    transition-delay: 3s;
+    transition: 1s;
+}
+#basketballfact{
+    width:0%;
+    height:0%;
+    background-color: grey;
+    top:10%;
+    position: absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    display:block;
+    border: 15px groove #e3e3e3;
+    border-radius: 10px;
+    font-family: "G", Helvetica, Arial;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 2s;
+    overflow:hidden; 
+    
+}
+#hoop{
+    height:30%;
+    left:0;
+    right:0;
+    top:45%;
+    margin:auto;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+#jordandunk{
+    position: absolute;
+    height:0%;
+    width:0%;
+    background-image: url(jordandunk.gif);
+    background-size: cover;
+    border-style: solid;
+    border-color: darkred;
+    left:15%;
+    top:10%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: 2s;
+    transition-delay: 2s;
+    overflow: hidden;
+    opacity: 0;
+    border-radius: 5px;
+}
+#kobebeef{
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:0;
+    height:70%;
+    width:70%;
+}
+#kobemerion{
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:0;
+    height:70%;
+}
+#kobedraft{
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:0;
+    height:50%;
+}
+#kobefactsbox3{
+    top:3%;
+    left:150%;
+    height:90%;
+    width:50%;
+    background-color: white;
+    position: absolute;
+    border-style: double;
+    border-width:inherit;
+    text-align: center;
+    font-family: "G", Helvetica, Arial;
+    transition:1s;
+    z-index:5;
+}
+#kobefactsbox4{
+    top:150%;
+    left:40%;
+    height:90%;
+    width:50%;
+    background-color: white;
+    position: absolute;
+    border-style: double;
+    border-width:inherit;
+    text-align: center;
+    font-family: "G", Helvetica, Arial;
+    transition:1s;
+    z-index:5;
+}
+#save{
+    display:none;
+}
+#average{
+    display:none;
+    border-radius: 5px;
+}
+.button {
+    background-color: skyblue;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:10px;
+}
+#statistics{
+    position: absolute;
+    background-color: white;
+    bottom:0%;
+    height:0%;
+    width:0%;
+    border-radius: 15px;
+    left:0%;
+    transition: 2s;
+    overflow: hidden;
+}
+#avgage{
+    font-size:30px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+}
